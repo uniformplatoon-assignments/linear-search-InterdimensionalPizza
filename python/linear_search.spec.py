@@ -18,6 +18,7 @@ def compareArrays (array1, array2):
 print(linear_search(3, [1,2,3]) == 2)
 print(linear_search(4, [1,2,3]) == None)
 print(linear_search(13, [1,2,3]) == None)
+print(linear_search(310, [1,2,3,23,456,310]) == 5)
 
 # tests for linear_search_global
 print(compareArrays(linear_search_global("a", ["b", "a", "n", "a", "n", "a", "s"]), [1, 3, 5]))
